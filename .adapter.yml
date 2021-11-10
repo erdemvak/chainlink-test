@@ -1,0 +1,11 @@
+name: MyPriceFeed
+description: Adaptor to query market data
+node_identifier: my_price_feed
+platforms:
+  - Docker  
+data_sources:
+  - name: MyPriceDataSource
+    url: https://0089-176-236-212-166.ngrok.io
+parameters:
+  - base
+  - quote
